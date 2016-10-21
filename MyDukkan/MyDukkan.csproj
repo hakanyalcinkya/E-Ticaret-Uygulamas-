@@ -181,7 +181,7 @@
     <Compile Include="Models\Comments.cs" />
     <Compile Include="Models\ModalLoginJsonResult.cs" />
     <Compile Include="Models\MyDukkanDBModel.cs" />
-    <Compile Include="Models\Products.cs" />
+    <Compile Include="images\Products.cs" />
     <Compile Include="Models\SiteUsers.cs" />
     <Compile Include="Models\SysUser.cs" />
     <Compile Include="Models\UrunDetayViewModel.cs" />

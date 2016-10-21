@@ -26,10 +26,10 @@ namespace MyDukkan
             // Insert SiteUsers..
             SiteUsers admin = new SiteUsers()
             {
-                Email = "kadirmuratbaseren@gmail.com",
+                Email = "hakanyalcınkaya@gmail.com",
                 LastAccess = DateTime.Now,
-                Name = "Murat",
-                Surname = "Başeren",
+                Name = "Hakan",
+                Surname = "Yalcinkaya",
                 Password = "123",
                 Permission = "admin"
             };

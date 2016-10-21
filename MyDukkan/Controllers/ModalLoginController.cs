@@ -27,7 +27,7 @@ namespace MyDukkan.Controllers
                 // TODO : SignIn => Check account info into database.
                 // Entity Framework or ADO.NET code here..
 
-                if (login_username == "murat" && login_password == "baseren")    // for example..
+                if (login_username == "hakan" && login_password == "yalcinkaya")    // for example..
                 {
                     result.HasError = false;
                     result.Message = "Giriş başarılı";
@@ -37,10 +37,10 @@ namespace MyDukkan.Controllers
                         new SysUser()
                         {
                             Id = 1,
-                            Name = "K. Murat",
-                            Surname = "Baseren",
-                            Username = "muratbaseren",
-                            Email = "kadirmuratbaseren@gmail.com"
+                            Name = "Hakan",
+                            Surname = "Yalcinkaya",
+                            Username = "hakanyalcinkaya",
+                            Email = "hakanyalcinkaya@gmail.com"
                         };
                 }
                 else
@@ -72,7 +72,7 @@ namespace MyDukkan.Controllers
                 // TODO : SignUp => Insert account info to database.
                 // Entity Framework or ADO.NET code here..
 
-                if (register_username == "muratbaseren")    // for example..
+                if (register_username == "hakanyalcinkaya")    // for example..
                 {
                     result.HasError = false;
                     result.Message = "Hesap olusturulmustur.";
@@ -82,10 +82,10 @@ namespace MyDukkan.Controllers
                         new SysUser()
                         {
                             Id = 1,
-                            Name = "K. Murat",
-                            Surname = "Baseren",
-                            Username = "muratbaseren",
-                            Email = "kadirmuratbaseren@gmail.com"
+                            Name = "Hakan",
+                            Surname = "Yalcinkaya",
+                            Username = "hakanyalcinkaya",
+                            Email = "hakanyalcinkaya@gmail.com"
                         };
                 }
                 else
@@ -116,7 +116,7 @@ namespace MyDukkan.Controllers
                 // TODO : LostPassword => Check e-posta into database.
                 // Entity Framework or ADO.NET code here..
 
-                if (lost_email == "kadirmuratbaseren@gmail.com")    // for example..
+                if (lost_email == "hakanyalcinkaya@gmail.com")    // for example..
                 {
                     result.HasError = false;
                     result.Message = "Sifreniz gonderilmistir.";
